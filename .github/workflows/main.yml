@@ -1,83 +1,53 @@
-name: Metrics
+# GitHub Action for generating a contribution graph with a snake eating your contributions.
+
+name: Generate Snake
+
+# Controls when the action will run. This action runs every 6 hours.
+
 on:
-  # Schedule updates (each hour)
-  # schedule: [{cron: "0 * * * *"}]
-  schedule: [{ cron: "0 */12 * * *" }]
-  # Lines below let you run workflow manually and on each commit
+  schedule:
+      # every 6 hours
+    - cron: "0 */6 * * *"
+
+# This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
-  push: { branches: ["master", "main"] }
+
+# The sequence of runs in this workflow:
 jobs:
-  github-metrics:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: lowlighter/metrics@latest
+
+    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
+
+    # Generates the snake  
+      - uses: Platane/snk@master
+        id: snake-gif
         with:
-          # Your GitHub token
-          token: ${{ secrets.METRICS_TOKEN }}
-          # Options
-          user: AndreiTka4iov
-          template: classic
-          base: header, activity, repositories, community
-          config_timezone: Europe/Moscow
-          plugin_traffic: yes
-          plugin_achievements: yes
-          plugin_achievements_limit: 8
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: compact
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_topics: yes
-          plugin_topics_sort: stars # Sort by most starred topics
-          plugin_topics_mode: mastered # Display icons instead of labels
-          plugin_topics_limit: 0 # Disable limitations
-          plugin_languages: yes
-          plugin_languages_colors: github
-          plugin_languages_details: lines, percentage
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_threshold: 0%
-          plugin_music: yes
-          plugin_music_limit: 4
-          plugin_music_mode: recent
-          plugin_music_provider: lastfm
-          plugin_music_token: ${{ secrets.LASTFM_TOKEN }}
-          plugin_music_time_range: short
-          plugin_music_top_type: tracks
-          plugin_music_user: .user.login
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_days: 7
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, editors-graph, os, os-graph
-          plugin_wakatime_limit: 5
-          plugin_wakatime_url: https://wakatime.com
-          plugin_wakatime_user: AndreiTka4iov
-          plugin_stock: yes
-          plugin_stock_token: ${{ secrets.STOCK_TOKEN }} # RapidAPI Yahoo Finance token
-          plugin_stock_symbol: YNDX.ME # Display RUB to USD stock price
-          plugin_stock_duration: 1d # Display last day of market
-          plugin_stock_interval: 5m # Use precision of 5 minutes for each record
-          plugin_lines: yes
-  snake:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v2
+          github_user_name: AndreiTka4iov
+          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+     # show the status of the build. Makes it easier for debugging (if there's any issues).
+      - run: git status
+
+      # Push the changes
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-                  # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v2.6.0
+          github_token: ${{ secrets.METRICS_TOKEN  }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
+          # the output branch we mentioned above
           target_branch: output
           build_dir: dist
         env:
