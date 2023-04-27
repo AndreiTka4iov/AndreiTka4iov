@@ -60,8 +60,10 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg?sanitize=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake.svg?sanitize=true" />
+  <img alt="github-snake" src="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake.svg?sanitize=true" />
 </picture>
+
+![soft](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=Come%20again!&fontSize=40&animation=twinkling)
 
