@@ -59,11 +59,8 @@
   <img align="left" width="400" alt="if you see this, it means my metrics are not working" src="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/main/github-metrics.svg">
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg?sanitize=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake.svg?sanitize=true" />
-  <img alt="github-snake" src="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake.svg?sanitize=true" />
-</picture>
+![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
 
 ![soft](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=Come%20again!&fontSize=40&animation=twinkling)
 
