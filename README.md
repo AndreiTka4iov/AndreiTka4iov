@@ -55,9 +55,7 @@
 
 ### ⚙️ GitHub statistics:
 
-<div>
-  <img align="left" width="400" alt="if you see this, it means my metrics are not working" src="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/main/github-metrics.svg">
-</div>
+
 
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg)
 
