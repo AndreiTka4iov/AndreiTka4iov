@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=256&section=header&text=Hello%20World!&fontSize=75&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&descAlignY=51&descAlign=62)
 
-
+<!-->
 # 👋 Hi, I’m @AndreiTka4iov
 - 👀 I’m interested in developing distributed multiservice systems
 - 🌱 I’m currently learning React, Redux and TypeScript
@@ -52,15 +52,13 @@
 </div>
 
 ---
-
+-->
 ### ⚙️ GitHub statistics:
 
 [<img align="left" width="400" alt="if you see this, it means my metrics are not working" src="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/main/github-metrics.svg">](https://github.com/AndreiTka4iov/AndreiTka4iov)
 
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
-
-<!-- [<img align="right" width="350" height="auto" alt="if you see this, it means my metrics are not working" src="https://now-playing-66mfrri4j-teuchezh.vercel.app/now-playing">](https://now-playing-66mfrri4j-teuchezh.vercel.app/now-playing?open) -->
 
 ![soft](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=Come%20again!&fontSize=40&animation=twinkling)
 
