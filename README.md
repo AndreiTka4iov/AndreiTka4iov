@@ -56,9 +56,13 @@
 ### ⚙️ GitHub statistics:
 
 <div>
-  [<img align="left" width="400" alt="if you see this, it means my metrics are not working" src="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/main/github-metrics.svg">](https://github.com/AndreiTka4iov/AndreiTka4iov)
+  <img align="left" width="400" alt="if you see this, it means my metrics are not working" src="https://github.com/AndreiTka4iov/AndreiTka4iov/blob/main/github-metrics.svg">
 </div>
 
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
 ![soft](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=Come%20again!&fontSize=40&animation=twinkling)
