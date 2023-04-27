@@ -55,6 +55,7 @@
 
 ### ⚙️ GitHub statistics:
 
+![Metrics](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/main/github-metrics.svg)
 
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
