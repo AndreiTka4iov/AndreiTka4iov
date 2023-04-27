@@ -1,48 +1,65 @@
-name: Generate Snake
+name: Metrics
 on:
-  schedule:
-      # every 6 hours
-    - cron: "0 */6 * * *"
-
-# This command allows us to run the Action automatically from the Actions tab.
+  # Schedule updates (each hour)
+  # schedule: [{cron: "0 * * * *"}]
+  schedule: [{ cron: "0 */6 * * *" }]
+  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-
-# The sequence of runs in this workflow:
+  push: { branches: ["master", "main"] }
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  github-metrics:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    permissions:
+      contents: write
     steps:
-
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v2
-
-    # Generates the snake  
-      - uses: Platane/snk@master
-        id: snake-gif
+      - uses: lowlighter/metrics@latest
         with:
-          github_user_name: mishmanners
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          # The following additional scopes may be required:
+          #  - read:org      (for organization related metrics)
+          #  - read:user     (for user related data)
+          #  - read:packages (for some packages related data)
+          #  - repo          (optional, if you want to include private repositories)
+          token: ${{ secrets.METRICS_TOKEN }}
 
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
-      - run: git status
-
-      # Push the changes
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+          # Options
+          user: AndreiTka4iov
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Europe/Moscow
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 360
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_ignored: CSS, HTML
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v2
         with:
-          github_token: ${{ secrets.METRICS_TOKEN }}
-          branch: master
-          force: true
-
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+                  # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
-          # the output branch we mentioned above
           target_branch: output
           build_dir: dist
         env:
