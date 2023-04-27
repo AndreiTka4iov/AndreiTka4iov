@@ -61,4 +61,3 @@
 ![github contribution grid snake animation](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![github contribution grid snake animation](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
-![soft](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=Come%20again!&fontSize=40&animation=twinkling)
