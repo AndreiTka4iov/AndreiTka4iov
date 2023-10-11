@@ -8,22 +8,6 @@
 - 📫 How to reach me [![Telegram Badge](https://img.shields.io/badge/-Telegram-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/Tcka4) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:andrei.tkachiov@gmail.com)
 ---
 
-### 🤝 Social network:
-
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/andreitkachiov/" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/2504/2504799.png" width="40" height="40" alt="linkedin" />
-    </a>
-    <a href="https://t.me/Tcka4" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="40" height="40" alt="telegram group" />
-    </a>
-    <a href="https://vk.com/tcka4" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/145/145813.png" width="40" height="40" alt="VK Badge"/>
-    </a>
-  </div>
-
----
-
 ### 💻 Technologies:
 
 <div>
