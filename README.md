@@ -40,6 +40,9 @@
 
 ### ⚙️ GitHub statistics:
 
+![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
+
 <table>
   <tr>
     <td>
@@ -50,9 +53,6 @@
     </td>
   </tr>
 </table>
-
-![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
 
 ![soft](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Come%20again&textBg=false&fontAlign=50&fontSize=28)
 
