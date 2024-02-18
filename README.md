@@ -6,7 +6,7 @@
 - 📫 How to reach me [![Telegram Badge](https://img.shields.io/badge/-Telegram-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/Tcka4) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:andrei.tkachiov@gmail.com)
 ---
 
-### 💻 Technologies:
+#### 💻 Technologies:
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" title="nextjs" alt="nextjs" width="40" height="40"/>&nbsp;
@@ -26,7 +26,7 @@
 
 ---
 
-### 🛠 Tools:
+#### 🛠 Tools:
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/notion/notion-original.svg" title="Notion" alt="notion" width="40" height="40"/>&nbsp;
@@ -38,7 +38,7 @@
 ---
 </p>
 
-### ⚙️ GitHub statistics:
+#### ⚙️ GitHub statistics:
 
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
