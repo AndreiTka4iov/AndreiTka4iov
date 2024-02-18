@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=256&section=header&text=Hello%20World!&fontSize=75&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&descAlignY=51&descAlign=62)
+![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=👋%20Hi,%20I’m%20Andrei%20Tkachiov&textBg=false&desc=Welcom%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&fontAlign=50&fontSize=28&fontAlignY=33&descAlign=50&descAlignY=50)
 
 
 # 👋 Hi, I’m @AndreiTka4iov
@@ -55,5 +55,5 @@
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
 
-![soft](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Come%20again&textBg=false)
+![soft](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Come%20again&textBg=false&fontAlign=50&fontSize=28)
 
