@@ -54,5 +54,5 @@
   </tr>
 </table>
 
-![soft](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Come%20again&textBg=false&fontAlign=50&fontSize=28)
+![soft](https://capsule-render.vercel.app/api?type=venom&height=160&color=gradient&text=Come%20again&textBg=false&fontAlign=50&fontSize=28)
 
