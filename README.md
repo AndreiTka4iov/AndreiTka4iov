@@ -3,7 +3,7 @@
 - 👀 I’m interested in developing distributed multiservice systems
 - 🌱 I’m currently learning Nest, React, Redux and TypeScript
 - 💞️ I’m looking for a job with a cool team to work together on projects and share experiences
-#[![Telegram Badge](https://img.shields.io/badge/-Telegram-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/Tcka4) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:andrei.tkachiov@gmail.com)
+- [![Telegram Badge](https://img.shields.io/badge/-Telegram-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/Tcka4) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:andrei.tkachiov@gmail.com)
 ---
 
 ### 💻 Technologies:
