@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=👋%20Hello,%20I’m%20Andrei%20Tkachiov&textBg=false&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&fontAlign=50&fontSize=50&fontAlignY=33&descAlign=50&descAlignY=50)
+![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=👋%20Hello,%20I’m%20Andrei%20Tkachev&textBg=false&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&fontAlign=50&fontSize=50&fontAlignY=33&descAlign=50&descAlignY=50)
 
 - 👀 I’m interested in developing distributed multiservice systems
 - 💞️ I’m looking for a job with a cool team to work together on projects and share experiences
