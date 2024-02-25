@@ -1,9 +1,3 @@
-<style>
-td, th, tr, table {
-   border: none!important;
-}
-</style>
-
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=👋%20Hello,%20I’m%20Andrei&textBg=false&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&fontAlign=50&fontSize=50&fontAlignY=33&descAlign=50&descAlignY=50)
 
 - 👀 I’m interested in developing distributed multiservice systems
@@ -42,6 +36,11 @@ td, th, tr, table {
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
 
+<style>
+  table td {
+    border: none !important;
+  }
+</style>
 <table>
   <tr>
     <td>
