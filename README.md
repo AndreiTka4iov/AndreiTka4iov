@@ -36,12 +36,7 @@
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
 
-<style>
-  table td {
-    border: none !important;
-  }
-</style>
-<table>
+<table style="border:0px solid white">>
   <tr>
     <td>
       <img align="left" src="http://github-readme-streak-stats.herokuapp.com?user=AndreiTka4iov&theme=dark&background=000000" alt="webDev's Github stats" />
@@ -53,4 +48,3 @@
 </table>
 
 ![soft](https://capsule-render.vercel.app/api?type=venom&height=160&color=gradient&text=Come%20again&textBg=false&fontAlign=50&fontSize=28)
-
