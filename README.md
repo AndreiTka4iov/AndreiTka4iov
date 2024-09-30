@@ -35,11 +35,7 @@
 
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
-
-<div>
-  <img height="195px" align="right" alt="webDev's Github Languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AndreiTka4iov&layout=compact&theme=vision-friendly-dark&hide=SCSS,CSS" />
-</div>
     
 
-![soft](https://capsule-render.vercel.app/api?type=venom&height=160&color=gradient&text=Come%20again&textBg=false&fontAlign=50&fontSize=28)
+![soft](https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&text=Come%20again&section=footer&reversal=false&textBg=false&fontSize=20&fontAlignY=75&animation=twinkling)
 
