@@ -15,6 +15,7 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/mobx/mobx-plain.svg" title="mobx" alt="mobx" width="40" height="40"/>&nbsp
   <img src="https://github.com/devicons/devicon/blob/master/icons/nestjs/nestjs-original.svg" title="nestjs" alt="nestjs" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain.svg" title="GraphQL" alt="GraphQL" width="40" height="40"/>&nbsp
+  <img src="https://github.com/devicons/devicon/blob/master/icons/elasticsearch/elasticsearch-original.svg" title="elasticsearch" alt="elasticsearch" width="40" height="40"/>&nbsp
   <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" title="mongodb" alt="mongodb" width="40" height="40"/>&nbsp
   <img src="https://github.com/devicons/devicon/blob/master/icons/clickhouse/clickhouse-original.svg" title="clickhouse" alt="clickhouse" width="40" height="40"/>&nbsp
   <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-plain.svg" title="postgresql" alt="postgresql" width="40" height="40"/>&nbsp
