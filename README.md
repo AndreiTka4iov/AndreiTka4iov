@@ -1,10 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=👋%20Hello,%20I’m%20Andrei&textBg=false&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&fontAlign=50&fontSize=50&fontAlignY=33&descAlign=50&descAlignY=50)
-
 - 👀 I’m interested in developing distributed multiservice systems
 - 💞️ I’m looking for a job with a cool team to work together on projects and share experiences
-
-### 📫 How to reach me:
-[![telegram Badge](https://img.shields.io/badge/-Telegram-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/Tcka4) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:andrei.tkachiov@gmail.com)
 
 #### 💻 Technologies:
 
@@ -39,7 +35,8 @@
 
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
-    
+
+![profile count](https://komarev.com/ghpvc/?username=AndreiTka4iov&color=red) [![Telegram Badge](https://img.shields.io/badge/-Telegram-blue?style=flat&logo=Telegram&logoColor=white)](https://t.me/Tcka4) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:andrei.tkachiov@gmail.com) [![Linkedin Badge](https://img.shields.io/badge/Linkedin-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andreitkachiov/)
 
 ![soft](https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&text=Come%20again&section=footer&reversal=false&textBg=false&fontSize=20&fontAlignY=75&animation=twinkling)
 
