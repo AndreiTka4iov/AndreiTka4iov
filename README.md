@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=👋%20Hello,%20I’m%20Andrei&textBg=false&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&fontAlign=50&fontSize=50&fontAlignY=33&descAlign=50&descAlignY=50)
+![header](https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=👋%20Hello,%20I’m%20Andrei&textBg=false&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&fontAlign=50&fontSize=36&fontAlignY=33&descAlign=50&descAlignY=50)
 
 ### 👨🏻‍💻 About Me
 - 👀 I’m deeply interested in building **distributed, scalable multi-service systems** — from architecture design to real-world production challenges.
