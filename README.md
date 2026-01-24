@@ -1,6 +1,14 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=👋%20Hello,%20I’m%20Andrei&textBg=false&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&fontAlign=50&fontSize=50&fontAlignY=33&descAlign=50&descAlignY=50)
-- 👀 I’m interested in developing distributed multiservice systems
-- 💞️ I’m looking for a job with a cool team to work together on projects and share experiences
+
+👀 I’m deeply interested in building **distributed, scalable multi-service systems** — from architecture design to real-world production challenges.
+
+🛠 I enjoy designing **system architecture and infrastructure**, working with microservices, data pipelines, parsers, and high-load environments.
+
+🚀 I like **taking ownership and building things from scratch**, improving existing systems, and turning ideas into reliable production solutions.
+
+📚 I’m constantly learning and exploring **new technologies and best practices** to make systems more efficient, scalable, and maintainable.
+
+💞️ I’m looking for a **team with a strong engineering culture**, where collaboration, knowledge sharing, and growth are part of everyday work.
 
 #### 💻 Technologies:
 
