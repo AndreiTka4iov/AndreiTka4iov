@@ -8,7 +8,7 @@
 - 💞️ I’m looking for a **team with a strong engineering culture**, where collaboration, knowledge sharing, and growth are part of everyday work.
 </br>
 
-### 💻 Technologies:
+### 💻 Technologies
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="typescript" alt="typescript" width="32" height="32"/>&nbsp
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="reactjs" alt="reactjs" width="32" height="32"/>&nbsp
@@ -28,7 +28,7 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/nats/nats-original.svg" title="nats" alt="nats" width="32" height="32"/>&nbsp
 </div></br>
 
-### ⚙️ GitHub statistics:
+### ⚙️ GitHub statistics
 ![snake gif](https://github.com/AndreiTka4iov/AndreiTka4iov/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![snake gif](https://raw.githubusercontent.com/AndreiTka4iov/AndreiTka4iov/output/github-contribution-grid-snake#gh-light-mode-only)
 
